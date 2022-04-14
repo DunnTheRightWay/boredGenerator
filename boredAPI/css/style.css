@@ -1,0 +1,53 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+h1 {
+  font-size: 5.9vw;
+  margin: 0;
+}
+
+h2{
+  font-size: 2.0vw;
+  margin: 5px 0;
+}
+
+body {
+  font-size: 100%;
+  font-family: monospace, Arial;
+  text-align: center;
+  color: rgb(79, 173, 234);
+  background-color: gainsboro;
+}
+
+.boredButton{
+  width: 35%;
+  margin: 0;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

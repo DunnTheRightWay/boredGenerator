@@ -1,4 +1,4 @@
-# Artist Search App
+# Bored Activity App
 ## API by: https://www.boredapi.com/
 
 [View the live deployment here](https://boredgenerator.netlify.app/)
